@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+</head>
+<body>
+
+    <h1>نموذج الاستفسار عن النظام الشمسي</h1>
+
+    <div class="form-container">
+        <form id="solar-system-form">
+            <label for="name">الاسم الكامل:</label>
+            <input type="text" id="name"  >
+
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" >
+
+            <label for="planet">ما هي الكوكب الذي تهتم به؟</label>
+            <input type="text" id="planet" >
+
+            <label for="question">سؤالك أو استفسارك:</label>
+            <textarea id="question" ></textarea>
+
+            <button type="button" class="btn btn-secondary">Secondary</button>
+        </form>
+
+        <div class="message" id="success-message">تم إرسال النموذج بنجاح! شكراً لتواصلك معنا.</div>
+        <div class="message error" id="error-message">حدث خطأ أثناء إرسال النموذج. يرجى المحاولة مرة أخرى لاحقاً.</div>
+    </div>
+</body>
+</html>
